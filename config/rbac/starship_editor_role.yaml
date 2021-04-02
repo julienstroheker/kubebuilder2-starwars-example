@@ -1,0 +1,24 @@
+# permissions for end users to edit starships.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: starship-editor-role
+rules:
+- apiGroups:
+  - starships.starwars.julienstroheker.com
+  resources:
+  - starships
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - starships.starwars.julienstroheker.com
+  resources:
+  - starships/status
+  verbs:
+  - get

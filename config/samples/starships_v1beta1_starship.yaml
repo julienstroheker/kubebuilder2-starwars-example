@@ -1,0 +1,48 @@
+apiVersion: starships.starwars.julienstroheker.com/v1beta1
+kind: Starship
+metadata:
+  name: deathstar
+spec:
+  name: Death Star
+---
+apiVersion: starships.starwars.julienstroheker.com/v1beta1
+kind: Starship
+metadata:
+  name: cr90corvette
+spec:
+  name: CR90 corvette
+---
+apiVersion: starships.starwars.julienstroheker.com/v1beta1
+kind: Starship
+metadata:
+  name: stardestroyer
+spec:
+  name: Star Destroyer
+---
+apiVersion: starships.starwars.julienstroheker.com/v1beta1
+kind: Starship
+metadata:
+  name: millenniumfalcon
+spec:
+  name: Millennium Falcon
+---
+apiVersion: starships.starwars.julienstroheker.com/v1beta1
+kind: Starship
+metadata:
+  name: ywing
+spec:
+  name: Y-wing
+---
+apiVersion: starships.starwars.julienstroheker.com/v1beta1
+kind: Starship
+metadata:
+  name: xwing
+spec:
+  name: X-wing
+---
+apiVersion: starships.starwars.julienstroheker.com/v1beta1
+kind: Starship
+metadata:
+  name: tieadvancedx1
+spec:
+  name: TIE Advanced x1

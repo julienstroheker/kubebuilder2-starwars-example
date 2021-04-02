@@ -1,0 +1,7 @@
+domain: starwars.julienstroheker.com
+repo: github.com/julienstroheker/kubebuilder2-starwars-example
+resources:
+- group: starships
+  kind: Starship
+  version: v1beta1
+version: "2"
